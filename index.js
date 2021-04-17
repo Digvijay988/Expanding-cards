@@ -6,6 +6,7 @@ panels.forEach( (panel) => {
         panel.classList.add("active");
     })
 })
+setTimeout(function() { alert("Rotate to LANDSCAPE Mode"); }, 6000);
 
 function removeActiveClasses() {
     panels.forEach((panel) => {
