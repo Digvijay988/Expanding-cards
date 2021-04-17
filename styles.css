@@ -55,7 +55,7 @@ body {
     transition: opacity 0.5s ease-in 0.5s ;
 }
 
-@media (max-width:480px){
+@media (max-width:480px),(orientation:portrait){
     .container {
         width: 100vw;
     }
